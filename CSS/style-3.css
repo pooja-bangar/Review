@@ -1,0 +1,60 @@
+body 
+	{ background-color: #7DC7D4; color: #FAF6F0;}
+	a:link, a:visited { color: #000; }
+	a:hover, a:active { color: #f00; }
+body 
+	{ font-family: 'Nixie One', serif; line-height: 1.5; font-size: 15.0rem; }
+/* div { border: 10px solid #333; margin: 50px auto; padding: 40px; width: 60%; } */
+html { font-size: 10%; }
+html { box-shadow: inset 0 0 10px 3px rgba(0, 0, 0, 0.5); }
+h1 { font-size: 40.0rem; font-weight: bold ; text-transform: uppercase; } 
+h2 {font-style: italic}
+h1, h2 { font-family: 'Share Tech', sans-serif; }
+@media (max-width: 480px) {
+  h1 { font-size: 2rem; }
+}
+#logo { float: left; margin: 30px; border: 5px; }
+.frame { border: 10px solid #ccc; }
+.nav { float: right; list-style: none; margin: 0; padding: 0; }
+.nav li {display: inline-block; margin: 0 30px 0 0; }
+
+#home #nav-home, #contact #nav-contact { color: #468400; }
+#map {position: fixed; padding: 40px; text-align: center;}
+#content{ clear: both; margin: 50px auto; padding: 40px; width: 60%; }
+.slide img { width: 100%; }
+.slide { max-height: 400px; overflow: hidden; position: relative; width: 100%; }
+.slide { box-shadow: 0 7px 10px 3px rgba(0, 0, 0, 0.5); }
+.slide-container { left: 0; position: absolute; top: 180px; width: 100%; z-index: 1; }
+.slide-container h1, .slide-container p { color: #fff; margin: 10px auto; width: 80%; }
+.slide-container h1, .slide-container p { text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.4); }
+.testimonials [class*="col"] { text-align: center; }
+.col-lg-4 { width: 33.3333%; }
+[class*="col"] {
+  float: left;
+  -webkit-box-sizing: border-box; /* Safari, Chrome */
+  -moz-box-sizing: border-box; /* Firefox */
+  box-sizing: border-box; /* Opera, Internet Explorer 8+ */
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+hr { background: #040201; border: 0; color: #040201; height: 1px; margin: 50px 0; }
+
+.row { margin-right: -15px; margin-left: -15px; }
+.row:after { clear: both; content: ""; display: table; }
+.col-md-7 { width: 58.3333%; }
+.col-md-5 { width: 41.6667%; }
+.text-muted { color: #999; }
+img { max-width: 100%; }
+
+.responsive-container { height: 0; padding: 0 0 48% 0; position: relative; }
+.responsive-container iframe,
+.responsive-container object,
+.responsive-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#email{float: left: }

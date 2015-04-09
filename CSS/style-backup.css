@@ -1,0 +1,64 @@
+html { font-size: 90.5%; } 
+body { background-color: #7DC7D4; color: #FAF6F0; font-family: 'Nixie One', serif; line-height: 1.5; margin: 20px 0 }
+a {font-weight: bold; }
+a:link, a:visited { color: #000; text-decoration: none; }
+a:hover, a:active { color: #f00; }
+h1 {font-size: 5.0rem; }
+	h1, h2 { font-family: 'Share Tech', sans-serif; }
+	h2 { text-align: center; font-style: italic; text-transform: uppercase;}
+hr { background: #040201; border: 0; color: #040201; height: 1px; margin: 50px 0; }
+img {max-width: 100%; }
+p { text-align: justify; }
+#content {clear: both; position: center; }
+#logo { margin: 30px; float: left;}
+.container {margin: 50px auto; width: 80%}
+.nav { float: right; list-style: none; margin: 0; padding: 0; }
+	.nav li { display: inline; margin: 0 20px 0 0; }
+.slide { max-height: 400px; overflow: hidden; position: relative; width: 100%; }
+	.slide img { width: 100%; }
+	.slide-container { left: 0; position: absolute; top: 180px; width: 100%; z-index: 1; }
+	.slide-container h1, .slide-container p { color: #fff; margin: 0 auto; width: 80%; position: center; text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.7); text-align: center;} /* Keeps everything centred */
+.text-muted {color: #999; }
+html { box-shadow: inset 0 0 10px 3px rgba(0, 0, 0, 0.5); }
+
+.row { margin-right: -15px; margin-left: -15px; }
+.row:after { clear: both; content: ""; display: table; }
+[class*="col"] {
+  float: left;
+  -webkit-box-sizing: border-box; /* Safari, Chrome */
+  -moz-box-sizing: border-box; /* Firefox */
+  box-sizing: border-box; /* Opera, Internet Explorer 8+ */
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.testimonials img {border-radius: 40px;} /*rounded edges for images */
+
+.col-lg-4 { width: 33.3333%; }
+.col-md-7 { width: 58.3333%; }
+.col-md-5 { width: 41.6667%; }
+.testimonials [class*="col"] { text-align: center; }
+
+#home #nav-home, #contact #nav-contact, #features #nav-features { color: #468400; }
+
+.responsive-container { height: 0; padding: 0 0 48% 0; position: relative; }
+.responsive-container iframe,
+.responsive-container object,
+.responsive-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  float: left;
+}
+
+}
+@media (max-width: 480px) {
+  h1 { font-size: 2rem; }
+}
+.address {float: right;}
+
+.fb-like { float: right; }
+
+.footer {clear: left; }
+#mc_embed_signup { float: right; width: 350px; color: #000000; }
